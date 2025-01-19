@@ -1,0 +1,7 @@
+# Set login.php as the default page when accessing the root directory
+DirectoryIndex login.php
+
+# If someone accesses the root directory, redirect them to /login/ path
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/void/?$ [NC]
+RewriteRule ^$ /void/login/ [L,R=302]

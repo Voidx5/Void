@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.login, .signup {
+    width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30%;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.demo project-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff; /* Main text color */
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.8),  /* Aura effect */
+        0 0 20px rgba(255, 255, 255, 0.6),
+        0 0 30px rgba(255, 255, 255, 0.4),
+        0 0 40px rgba(255, 255, 255, 0.2),
+        0 0 50px rgba(255, 255, 255, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navbar Links */
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar-links a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Search Bar */
+.navbar-search {
+    display: flex;
+    align-items: center;
+}
+.search-btn {
+    padding: 8px 12px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #777;
+}

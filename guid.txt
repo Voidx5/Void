@@ -1,0 +1,19 @@
+Steps to start void:
+1. Please do ensure system is connected to internet
+2. connection -> RegLogin.sql
+3. Copy the code
+4. Run it on mySQL server
+5. Start XAMPP 
+6. Go to brower type "Localhost/void" it will redirect you to login page
+
+
+Steps For Admin
+1. Go to brower type "localhost/void/login/hash.php"
+2. Copy the bycrypted password 
+3. Open PHPMyAdmin navigate to voidx -> admin table 
+4. Make a account manually in password paste the bycripted password
+5. Then go to login page and enter your manually ented credential(email id) and password "123" 
+6. Click login
+
+
+For help contact us through git 
